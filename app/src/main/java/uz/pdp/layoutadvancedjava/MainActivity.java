@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void initViews() {
         TextView textView = findViewById(R.id.textView);
-        String text = "I know just how to #whister, And I know how to cry, I know just where to find the answer";
+        String text = "I would like to do something similar to the https://twitter.com app";
 
         Spannable spannable = new SpannableString(text);
-        spannable.setSpan(new ForegroundColorSpan(Color.BLUE), 18, 27, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        spannable.setSpan(new ForegroundColorSpan(Color.BLUE), 44, 62, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
         textView.setText(spannable);
     }
